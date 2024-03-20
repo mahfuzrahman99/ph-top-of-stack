@@ -3,6 +3,8 @@ import Deals from "./Deals";
 import Featured from "./Featured";
 import Navbar from "./Navbar";
 import Popular from "./Popular";
+import Subscribe from "./Subscribe";
+import Travel from "./Travel";
 
 const Home = () => {
   return (
@@ -21,6 +23,12 @@ const Home = () => {
       </div>
       <div className="max-w-5xl mx-auto my-10">
         <Popular/>
+      </div>
+      <div className="max-w-5xl mx-auto my-10">
+        <Travel/>
+      </div>
+      <div className="max-w-5xl mx-auto my-10">
+        <Subscribe/>
       </div>
     </div>
   );
